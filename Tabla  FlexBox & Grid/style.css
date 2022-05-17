@@ -1,0 +1,176 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 90%;
+	width: 80%;
+	gap: 20px;
+	background-image: url("fondo.jpg");
+	margin: 10% auto;
+}
+
+.title,
+.title2 {
+	font-weight: bolder;
+	font-size: 40px;
+}
+
+.table {
+	width: 600px;
+	height: 600;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	font-weight: bold;
+	font-size: 20px;
+	grid-area: auto;
+}
+
+.colors {
+	display: grid;
+	justify-content: center;
+	height: 50px;
+	background-color: green;
+	grid-column: 1 /7;
+}
+
+.table > * {
+	display: grid;
+	align-items: center;
+}
+
+.black {
+	background-color: black;
+}
+
+.teal {
+	display: flex;
+	align-items: center;
+	background-color: teal;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.navy {
+	background-color: navy;
+}
+
+.lime {
+	background-color: lime;
+}
+
+.white {
+	background-color: white;
+}
+
+.purple {
+	background-color: purple;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.olive {
+	background-color: olive;
+}
+
+.red {
+	background-color: red;
+}
+
+.gray {
+	background-color: gray;
+}
+
+.fuchsia {
+	background-color: fuchsia;
+}
+
+.green {
+	background-color: green;
+	grid-column: 4 / 7;
+}
+
+.table2 {
+	width: 90%;
+	height: 60%;
+	margin-bottom: 5%;
+	display: grid;
+	box-sizing: border-box;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.black2 {
+	color: black;
+}
+
+.teal2 {
+	color: teal;
+}
+
+.blue2 {
+	color: blue;
+}
+
+.navy2 {
+	color: navy;
+}
+
+.lime2 {
+	color: lime;
+}
+
+.white2 {
+	color: white;
+}
+
+.purple2 {
+	color: purple;
+}
+
+.yellow2 {
+	color: yellow;
+}
+
+.olive2 {
+	color: olive;
+}
+
+.red2 {
+	color: red;
+}
+
+.marron2 {
+	color: brown;
+}
+
+.gray2 {
+	color: gray;
+}
+
+.fuchsia2 {
+	color: fuchsia;
+}
+
+.green2 {
+	color: green;
+}
+
+.aqua2 {
+	color: aqua;
+}
+
+.silver2 {
+	color: silver;
+}
